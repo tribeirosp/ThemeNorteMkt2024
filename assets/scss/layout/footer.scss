@@ -239,22 +239,23 @@
 
   .direitos-reservados {
     p {
-
-      font-size: 10px;
+      font-size: 9px;
       line-height: 17px;
-      max-width: 450px;
-      letter-spacing: 0.8px;
-
-
       font-weight: 400;
       color: #fff;
       margin: 0 auto;
       text-align: center;
-      text-transform: uppercase;
       a {
         color: #ffffff;
         text-decoration: underline;
       }
+
+      .dominio { 
+        width: 100%;
+        display: table;
+        font-weight: bold;
+      }
+      
       /* Estilos para telas pequenas e acima */
       @media (min-width: 576px) {
         font-size: 11px;
@@ -271,7 +272,7 @@
     }
   }
 }
-
+ 
 #footer .widget {
   width: 100%;
   margin: 15px 0;
@@ -284,6 +285,16 @@
 }
 .footer-info .direitos-reservados {
   text-align: center;
+  .logo-dooter { 
+    display: table;
+    margin: 0 auto;
+    padding: 25px 0 15px 0;  
+    img { 
+      width: 100%;
+      max-width: 70px;
+    }
+  }
+
 }
 .footer-info .credit {
   display: table;

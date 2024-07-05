@@ -36,8 +36,10 @@
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
   <![endif]-->
 
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
   <?php
   if (is_singular() && get_option('thread_comments')) wp_enqueue_script('comment-reply');
   wp_head();

@@ -41,7 +41,7 @@
 					<?php endif;?> 
 
 						<p>  
-							 O Evento é um produto comercializado por Norte MKT Esportivo: -  <?php echo home_url(); ?><br />
+							 O Evento é um produto comercializado por Norte MKT Esportivo: -  <span class="dominio"> <?php echo home_url(); ?></span><br />
 							<a href="<?php echo home_url('/'); ?>/politica-de-privacidade/" title="Política de privacidade">
 								Política de privacidade
 							</a>

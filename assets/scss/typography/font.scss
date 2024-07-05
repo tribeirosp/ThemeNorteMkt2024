@@ -28,10 +28,10 @@ $color-destaque: #830875;
 .color-light{ color: $color-light}   
  
    
-h1, h2, h3, h4, h5, h6 {font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; line-height: 1.2em; font-display: swap; }
-body{ background-color: $color-light; color:$color-secondary; font-size: 16px; font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif;  line-height: 1.3em; font-display: swap;} 
-p {line-height: 1.4em;  font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; font-display: swap; }
-a,button { outline: none;  font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; cursor: pointer; font-display: swap;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Montserrat',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; line-height: 1.2em; font-display: swap; }
+body{ background-color: $color-light; color:$color-secondary; font-size: 16px; font-family: 'Montserrat',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif;  line-height: 1.3em; font-display: swap;} 
+p {line-height: 1.4em;  font-family: 'Montserrat',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; font-display: swap; }
+a,button { outline: none;  font-family: 'Montserrat',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; cursor: pointer; font-display: swap;}
 a { text-decoration: none; color:$color-secondary; font-display: swap; &:hover { color: $color-primary;}}  
 mark { padding: 0;}
  
