@@ -200,6 +200,7 @@ add_action('wp_default_scripts', 'remove_jquery_migrate');
  *
  */
 function my_customize_register($wp_customize) {
+ 
     // Seção para o logotipo do topo
     $wp_customize->add_section('logo_section', array(
         'title' => __('Logotipo do Topo', 'meu_tema'),
@@ -217,8 +218,30 @@ function my_customize_register($wp_customize) {
         'section' => 'logo_section',
         'settings' => 'logo_setting',
     )));
+
+    // Seção para o logotipo do rodapé
+    $wp_customize->add_section('footer_logo_section', array(
+        'title' => __('Logotipo do Rodapé', 'meu_tema'),
+        'description' => __('Personalize o logotipo do rodapé do seu site. Recomendamos um tamanho de 120 pixels de largura', 'meu_tema'),
+        'priority' => 40,
+    ));
+
+    $wp_customize->add_setting('footer_logo_setting', array(
+        'default' => '',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'footer_logo_control', array(
+        'label' => __('Logotipo do Rodapé', 'meu_tema'),
+        'section' => 'footer_logo_section',
+        'settings' => 'footer_logo_setting',
+    )));
 }
 add_action('customize_register', 'my_customize_register');
+
+     
+
+
 
  
 /**

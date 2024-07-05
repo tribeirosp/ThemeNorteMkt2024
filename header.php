@@ -27,8 +27,6 @@
     
   <meta name="description" content="<?php bloginfo('description');?> - <?php the_title();?>">
   <meta name="author" content="Norte marketing esportivo">
-
-  <meta name="google-site-verification" content="mKfLwF_f8ZgS6FGphBhwaAf0QRYKL0xIfzNLZ57rbvM">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes'>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
 

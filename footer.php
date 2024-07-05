@@ -11,7 +11,7 @@
  * @link 	  https://www.nortemkt.com
  */
 ?>
-<div class="container-fluid rodape  ">
+<div class="container-fluid rodape p-0 ">
 	<div class="container">
 		<div class="row">
 	 
@@ -29,8 +29,19 @@
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 					<div class="direitos-reservados">
+					
+					<?php if (get_theme_mod('footer_logo_setting')):?>
+						<a href="<?php echo home_url();?>" title="<?php bloginfo('name');?>" class="logo-dooter">
+							<img width="120" height="auto" src="<?php echo esc_url(get_theme_mod('footer_logo_setting'));?>" alt="<?php bloginfo('name');?>">
+						</a>
+					<?php else:?>
+						<a href="<?php echo home_url();?>" title="<?php bloginfo('name');?>" class="logo-dooter">
+						<?php bloginfo('name');?>
+						</a>
+					<?php endif;?> 
+
 						<p>  
-							2024 - Todos os direitos reservados -  <?php bloginfo('name');?><br />
+							 O Evento é um produto comercializado por Norte MKT Esportivo: -  <?php echo home_url(); ?><br />
 							<a href="<?php echo home_url('/'); ?>/politica-de-privacidade/" title="Política de privacidade">
 								Política de privacidade
 							</a>
