@@ -1,0 +1,60 @@
+
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+
+
+.header-bar { 
+    background: $color-secondary;
+    //box-shadow: 0px 2px 20px 0px #dee0ea;
+    z-index: 99;
+    padding: 15px 10px;
+    transition: all 0.1s ease-in; 
+    margin-bottom: 20px;
+    /* Estilos para telas pequenas e acima */
+    @media (min-width: 576px) {
+      padding: 15px 0; 
+    }
+   .logo {
+    float: left;
+    display: table;
+    margin: 0px 0 0px 0;
+    transition: all 0.2s ease-in;
+    h1.site-title { 
+      margin: 0; 
+      font-weight: lighter;
+      /* Estilos para telas pequenas e acima */
+      @media (min-width: 576px) {
+        line-height: 30px;
+      }
+      a {
+        color:$color-light; 
+        text-decoration: none;
+      } 
+      
+    }
+  }
+ 
+}
+.page-template-page-elementor,
+.page-template-page-elementor-full-width { 
+  .header-bar { 
+    margin-bottom: 0;
+  }
+}
+ 
+
+
+ 

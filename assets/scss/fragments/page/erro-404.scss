@@ -1,0 +1,44 @@
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+
+.erro404 { 
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    display: table;
+    margin: 200px auto 200px;
+    padding: 50px;
+    box-shadow: 0px 2px 20px 0px #e9e9e9;
+	img.icone-erro404 { 
+        display: table;
+        margin: 0 auto 30px;
+	} 
+	h2.page-title { 
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+	}
+	h3 { 
+        text-align: center;
+        margin:0 auto 20px;
+	}
+	p { 
+                text-align: center;  
+	} 
+}
+  

@@ -1,0 +1,44 @@
+
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+
+#comments { 
+    box-shadow: 0px 2px 20px 0px #dee0ea;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+#comments h2{margin:15px 0;}
+#comments span.date-and-time a { display: block; font-size:13px;color:#999; text-decoration: none; font-weight: normal; margin: 2px 0;}
+#comments p.comment-notes {font-size: 12px;	color: #333333;}
+#comments ol.commentlist{margin:0;}
+#comments ol.commentlist li div.comment-author {margin-top: 5px;}
+#comments ol.commentlist .comment-meta .comment-awaiting-moderation{color:red; font-style:italic;}
+#comments ol.commentlist .pingback{margin-bottom:10px;}
+#comments ol.commentlist .pingback .title{font-size:14px;font-weight: 700;}
+#comments ol.commentlist li div.vcard {font-size: 14px; font-weight: bold; margin-bottom: 0;}
+#comments ol.commentlist li div.vcard span.edit-link a {font-size: 13px; font-weight: 400; margin-bottom: 0;}
+#comments ol.commentlist .comment-content p{margin-bottom:10px;}
+#comments ol.commentlist li div.vcard cite.fn { font-style:normal; }
+#comments ol.commentlist li div.vcard img.avatar {float:left; margin-right: 10px;}
+#comments ol.commentlist li {list-style: none;}
+#comments ol.commentlist li div.reply {margin-bottom: 15px;}
+#comments ol.commentlist li ul.children {list-style:none; margin:15px 0 0;	text-indent:0;}
+#comments ol.commentlist li ul.children li.depth-2 {margin: 0 0 30px 40px;}
+#comments ol.commentlist li ul.children li.depth-3 {margin: 0 0 30px 40px;}
+#comments ol.commentlist li ul.children li.depth-4 {margin: 0 0 30px 40px;}
+#comments ol.commentlist li ul.children li.depth-5 {margin: 0 0 30px 40px;}

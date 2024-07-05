@@ -1,0 +1,78 @@
+
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+
+/* Fonts & Colors */
+$color-primary:  #4e4d50;  
+$color-secondary: #333333;  
+$color_neutral:  #E9EDFF;
+$color-light: #fff; 
+$color-destaque: #830875;   
+
+.color-primary { color: $color-primary } 
+.color-secondary {color: $color-secondary}  
+.color_neutral{ color: $color_neutral}  
+.color-light{ color: $color-light}   
+ 
+   
+h1, h2, h3, h4, h5, h6 {font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; line-height: 1.2em; font-display: swap; }
+body{ background-color: $color-light; color:$color-secondary; font-size: 16px; font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif;  line-height: 1.3em; font-display: swap;} 
+p {line-height: 1.4em;  font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; font-display: swap; }
+a,button { outline: none;  font-family: 'Poppins',  "Helvetica Neue", Helvetica, Tahoma, sans-serif,  Arial, sans-serif; cursor: pointer; font-display: swap;}
+a { text-decoration: none; color:$color-secondary; font-display: swap; &:hover { color: $color-primary;}}  
+mark { padding: 0;}
+ 
+  
+@mixin font-size-h1 {
+        font-size: 25px;
+        line-height: 30px; 
+        font-weight: 900;
+        font-style: normal;
+        /* Estilos para telas pequenas e acima SN*/
+        @media (min-width: 576px) {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        /* Estilos para telas médias e acima MD*/
+        @media (min-width: 768px) {
+            font-size: 32px; 
+            line-height: 37px; 
+        }
+        /* Estilos para telas grandes e acima LG */
+        @media (min-width: 992px) {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        /* Estilos para telas grandes e acima XL*/
+        @media (min-width: 1200px) {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        /* Estilos para telas extra grandes e acima XXL */ 
+        @media (min-width: 1400px) {
+            font-size: 45px;
+            line-height: 50px;
+        }
+}
+
+//Como Usar 
+//.blog-titulo {
+// h1 {
+//    @extend %font-size-h1;
+//    ou 
+//    @include font-size-h1
+//    } 
+ // }

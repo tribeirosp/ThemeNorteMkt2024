@@ -1,0 +1,333 @@
+
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+
+.rodape {
+  background-color: #333333;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #fff;
+  margin-top: 30px;
+
+  /* Estilos para telas pequenas e acima */
+  @media (min-width: 576px) {
+    padding-top: 35px;
+  }
+
+  a { 
+    color: #fff;
+  }
+  #footer {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+    /* Estilos para telas pequenas e acima */
+    @media (min-width: 576px) {
+      padding-bottom: 30px;
+      border-bottom: 3px solid $color-primary;
+      margin-bottom: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+ 
+
+    a {
+      color: #fff;
+    } 
+
+    a.logo-rodape {
+      color: #fff;
+      font-weight: 100;
+      margin: 3% 0;
+      display: table;
+    }
+
+    .footer-social {
+      margin-top: 30px;
+      a {
+        margin: 0 2px 0 2px;
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 4px;
+        &:hover {
+          background: #fff;
+          color: $color-secondary;
+        }
+        /* Estilos para telas médias e acima */
+        @media (min-width: 768px) {
+            font-size: 22px;
+        }
+        /* Estilos para telas grandes e acima */
+        @media (min-width: 1200px) {
+          padding: 6px;
+        }
+      }
+    }
+
+    .footer-widgets {
+      display: table;
+      width: 100%;
+      padding: 40px 0 0 0;
+      /* Estilos para telas pequenas e acima */
+      @media (min-width: 576px) {
+        padding: 60px 0 0 0;
+      }
+
+      .textwidget {
+        p {
+          font-size: 15px;
+        }
+      }
+      .widget {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+        margin: 2% 1% 0% 1%;
+        h4 {
+          margin-bottom: 5px;
+          font-size: 17px;
+          color: #fff;
+          padding: 0 0px 0;
+          font-weight: 100;
+          text-align: left;
+        }
+        ul li {
+          color: #ffffff;
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+        ul.icones-redessociais {
+          display: inline-block;
+          position: absolute;
+          bottom: unset;
+          right: 0;
+          top: 65px;
+
+          /* Estilos para telas pequenas e acima */
+          @media (min-width: 576px) {
+            bottom: 21px;
+          }
+
+          li {
+            display: inline-block;
+            margin: 0 7px 0 0;
+            a.icon-redesocial {
+              width: 25px;
+              height: 25px;
+              display: table;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            a.facebook {
+              background-image: url(../images/icon-facebook.webp);
+            }
+            a.instagram {
+              background-image: url(../images/icon-instagram.webp);
+            }
+            a.youtube {
+              background-image: url(../images/icon-youtube.webp);
+            }
+            a.linkedin {
+              background-image: url(../images/icon-linkedin.webp);
+            }
+          }
+        }
+      }
+      .widget .is-layout-flex.wp-block-columns {
+        margin-bottom: 0px;
+      }
+      .widget.widget_block {
+        margin: 0;
+        padding: 0;
+      }
+      .widget_nav_menu ul li {
+        list-style: none;
+        margin-left: 15px;
+      }
+      .textwidget {
+        padding: 0;
+      }
+      .widget_nav_menu ul.menu li {
+        margin: 0 0 15px 0;
+      }
+      .widget_nav_menu h2.widgettitle {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #ffffff;
+        margin: 0px 0 20px 0;
+        /* Estilos para telas pequenas e acima */
+          @media (min-width: 576px) {
+            margin: 0 0 40px 0;
+          }
+
+      }
+      .widget_nav_menu .menu li a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      .tagcloud a {
+        background: #292f33;
+        color: #878787;
+      }
+      .widget_calendar thead > tr > th {
+        background: none;
+        color: #bbbbbb;
+      }
+    }
+  } 
+  .widget_nav_menu {
+    margin-bottom: 30px;
+    h2 {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      margin: 0 0 15px 0; 
+    } 
+    ul { 
+      li {  
+        color: #fff;
+        overflow: hidden;
+        padding: 4px 0px !important;
+        margin: 4px 0 4px 0;
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+.page-template-page-elementor,
+.page-template-page-elementor-full-width { 
+  .rodape { 
+    margin-top: 0;
+  }
+}
+ 
+
+.footer-info {
+  background: #333333;
+  padding:  0;
+  .linha-divisa { 
+    width: 100%;
+    height: 3px;
+    display: table;
+  
+    border-top: 3px solid #2263e5;
+    max-width: 1120px;
+    margin: 0 auto 25px;
+      /* Estilos para telas pequenas e acima */
+      @media (min-width: 576px) {
+        display: none; 
+      }
+      /* Estilos para telas médias e acima */
+      @media (min-width: 768px) {
+      }
+        /* Estilos para telas grandes e acima */
+      @media (min-width: 992px) {
+        margin: 0 auto 30px;
+      }
+      /* Estilos para telas grandes e acima */
+      @media (min-width: 1200px) {
+        margin: 0 auto 35px;
+      }
+      /* Estilos para telas extra grandes e acima */ 
+      @media (min-width: 1400px) {
+      }
+
+  }
+  
+
+  .direitos-reservados {
+    p {
+
+      font-size: 10px;
+      line-height: 17px;
+      max-width: 450px;
+      letter-spacing: 0.8px;
+
+
+      font-weight: 400;
+      color: #fff;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+      a {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      /* Estilos para telas pequenas e acima */
+      @media (min-width: 576px) {
+        font-size: 11px;
+        line-height: 20px;
+        max-width: 95%;
+      }
+      /* Estilos para telas médias e acima */
+      @media (min-width: 768px) {
+        font-size: 13px;
+        line-height: 22px;
+        max-width: 600px;
+      }
+
+    }
+  }
+}
+
+#footer .widget {
+  width: 100%;
+  margin: 15px 0;
+  padding: 0;
+  /* Estilos para telas pequenas e acima */
+  @media (min-width: 576px) {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.footer-info .direitos-reservados {
+  text-align: center;
+}
+.footer-info .credit {
+  display: table;
+  margin: 10px auto 0;
+  float: none;
+  text-align: center;
+  line-height: 15px;
+}
+.footer-info .credit a {
+  display: inline-block;
+  margin: 8px 0 -5px 1px;
+  text-transform: uppercase;
+  padding: 0 0 10px 0;
+}
+
+
+
+
+
+

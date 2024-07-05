@@ -1,0 +1,38 @@
+ 
+/* Estilos para telas pequenas e acima */
+@media (min-width: 576px) {
+}
+/* Estilos para telas médias e acima */
+@media (min-width: 768px) {
+}
+  /* Estilos para telas grandes e acima */
+@media (min-width: 992px) {
+}
+/* Estilos para telas grandes e acima */
+@media (min-width: 1200px) {
+}
+/* Estilos para telas extra grandes e acima */ 
+@media (min-width: 1400px) {
+}
+ 
+.service-box{ 
+	padding: 15px;
+	background: $color_neutral;
+	border-radius: 7px;
+	transition: all 0.7s  ease-out; 
+	cursor: cell;
+	min-height: 220px;
+	/* Estilos para telas grandes e acima */
+	@media (min-width: 992px) {
+		min-height: auto;
+	}
+	&:hover { 
+		transition: all .7s ease; 
+		background: linear-gradient($color-secondary 0%, $color-destaque 100%);
+		color: #fff;
+		
+	} 
+	
+} 
+
+  

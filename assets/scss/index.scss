@@ -1,0 +1,27 @@
+// Importação do projeto
+@import 'fragments/reset.scss'; 
+
+// Tipografia 
+@import 'typography/font.scss';
+ 
+// Layout 
+@import 'layout/header.scss';   
+@import 'layout/footer.scss'; 
+
+//menu  
+@import 'fragments/menu/menu.scss'; 
+
+
+//Fragments
+@import 'fragments/page/page-home.scss'; 
+@import 'fragments/page/post-excerpt.scss';
+@import 'fragments/page/single-post.scss';  
+@import 'fragments/page/page-template.scss';
+@import 'fragments/page/erro-404.scss';
+@import 'fragments/form-comentarios/comentarios.scss'; 
+@import 'fragments/form-comentarios/form.scss'; 
+@import 'fragments/sidebar/sidebar.scss'; 
+@import 'fragments/page/widget_search.scss';
+@import 'fragments/widget/widget_redes_sociais_widget.scss';
+
+ 
