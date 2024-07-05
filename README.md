@@ -1,4 +1,4 @@
-# DynamicStart
+# NorteMKT
 Tema WordPress basico para inicar um novo projeto
 
 The norte_marketing theme is a custom WordPress theme designed to provide a flexible and stylish starting point for building your website. This theme includes a variety of features such as custom menus, support for post thumbnails, custom widgets, and more.
