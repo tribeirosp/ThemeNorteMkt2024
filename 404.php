@@ -8,8 +8,7 @@
  * @author    Norte Marketing
  * @link 	  https://www.nortemkt.com
  * 
- **/
-?>
+ **/?>
 <?php get_header(); ?>
 <div id="primary" class="container">
 	<div class="row">
